@@ -4,6 +4,6 @@ from . import views
 
 app_name = 'user'
 
-urlpatterns = {
+urlpatterns = [
     path('home/',views.HomeView.as_view(),name='home'),
-}
+]
